@@ -1,0 +1,15 @@
+{
+  "name": "fortune-cli",
+  "version": "1.0.0",
+  "description": "Get random fortunes, quotes, and jokes from the command line",
+  "bin": {
+    "fortune": "./index.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}
